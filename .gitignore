@@ -1,0 +1,13 @@
+# Backend
+backend/target/
+backend/.mvn/
+backend/.idea/
+backend/*.log
+
+# Frontend
+catalog-frontend/node_modules/
+catalog-frontend/build/
+catalog-frontend/.env
+
+# General
+.DS_Store
