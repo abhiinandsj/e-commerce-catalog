@@ -38,6 +38,10 @@ Includes:
 - View product list
 - See price, stock, and status
 
+### ER Diagram
+![ChatGPT Image Jan 18, 2026, 01_42_55 AM](https://github.com/user-attachments/assets/e9f7ba67-a1e0-49ed-8e51-19c5aed7b655)
+
+
 ---
 
 ## Tech Stack
@@ -53,6 +57,30 @@ Includes:
 - React Router
 - Fetch API
 - CSS (Glassmorphism UI)
+
+---
+
+## File Strucutre
+```
+catalog/
+│
+├── backend/
+│ ├── controller/
+│ ├── service/
+│ ├── repository/
+│ ├── model/
+│ ├── config/
+│ └── application.properties
+│
+└── catalog-frontend/
+├── src/
+│ ├── App.js
+│ ├── Home.js
+│ ├── ProductList.js
+│ ├── AddProduct.js
+│ ├── EditProduct.js
+│ └── index.css
+```
 
 ---
 
@@ -159,6 +187,7 @@ User Page:
 ![Screenshot_18-1-2026_13510_localhost](https://github.com/user-attachments/assets/d015abd0-c5ae-4d8f-b72f-b90d98b06e9d)
 
 ---
+
 
 
 
