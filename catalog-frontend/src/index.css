@@ -1,0 +1,142 @@
+html, body, #root {
+  height: 100%;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: url("bg.png") no-repeat center center fixed;
+  background-size: cover;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-weight: bold;
+}
+
+
+
+.page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: solid  red;
+}
+
+.card {
+  /* background: rgba(255,255,255,0.9); */
+  padding: 30px;
+  border-radius: 10px;
+  width: 30%;
+  /* max-width: 700px; */
+  
+  /* box-shadow: 0 10px 30px rgba(0,0,0,0.2); */
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  /* border: solid  rgb(89, 0, 255); */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+
+  color: #111;
+}
+
+.product-card {
+  /* background: rgba(255,255,255,0.9); */
+  padding: 30px;
+  border-radius: 10px;
+  width: 70%;
+  max-width: 700px;
+  
+  /* box-shadow: 0 10px 30px rgba(0,0,0,0.2); */
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  /* border: solid  rgb(89, 0, 255); */
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+
+  color: #111;
+}
+
+button {
+  padding: 10px 18px;
+  margin: 5px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background: #111;
+  color: white;
+  font-weight: bold;
+}
+
+button:hover {
+  background: #333;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  margin: 6px 0;
+  margin-right: 10px;
+  border-radius: 5px;
+  /* border: 1px solid #ccc; */
+  border: 1px solid rgba(30, 20, 20, 0.2);
+  background: rgba(217, 238, 255, 0.347);
+}
+input::placeholder {
+  font-weight: bold;
+  opacity: 0.5;
+  color: rgb(50, 54, 73);
+}
+
+input::file-selector-button {
+  font-weight: bold;
+  color: rgb(50, 54, 73);
+  padding: 0.5em;
+  opacity: 0.5;
+  border: thin solid grey;
+  border-radius: 8px;
+}
+
+
+.product-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 15px;
+  /* border: solid  rgb(0, 255, 234); */
+}
+
+.product-table th,
+.product-table td {
+  padding: 10px;
+  border: 1px solid rgba(30, 20, 20, 0.2);
+  background: rgba(255,255,255,0.35);
+  
+}
+
+.page-container {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass-box {
+  width: 70%;
+  max-width: 900px;
+  min-height: 300px;
+  padding: 24px;
+  border-radius: 14px;
+
+  background: rgba(255, 255, 255, 0.18);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+
+  border: 1px solid rgba(255, 255, 255, 0.25);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+
+  color: #111;
+}
+
