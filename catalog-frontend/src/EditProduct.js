@@ -21,7 +21,7 @@ function EditProduct() {
       method: "PUT",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify(form)
-    }).then(() => nav("/"));
+    }).then(() => nav("/admin"));
   };
 
   if (!form) return <p>Loading...</p>;

@@ -3,6 +3,7 @@ backend/target/
 backend/.mvn/
 backend/.idea/
 backend/*.log
+backend/uploads/
 
 # Frontend
 catalog-frontend/node_modules/
