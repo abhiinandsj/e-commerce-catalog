@@ -105,7 +105,7 @@ Table: `product`
 1. Create database:
    ```
    CREATE DATABASE product_catalog;
-    ```
+   ```
 
 2. Update application.properties:
    ```
@@ -118,33 +118,34 @@ Table: `product`
    ```
      mvn spring-boot:run
    ```
-   Or run it from the IDE
-Backend runs at:
-```
+   (Or run it from the IDE)
+   
+   Backend runs at:
+  ```
   http://localhost:8080
-```
+  ```
 
 Frontend Setup
 
 1. Go to frontend folder:
-```
-cd catalog-frontend
-```
+  ```
+  cd catalog-frontend
+  ```
 
 2. Install dependencies:
-```
-npm install
-```
+  ```
+  npm install
+  ```
 
 3. Start app:
-```
-npm start
-```
+  ```
+  npm start
+  ```
 
 -Frontend runs at:
-```
-http://localhost:3000
-```
+  ```
+  http://localhost:3000
+  ```
 API Endpoints
 
 | Method | Endpoint           | Purpose            |
